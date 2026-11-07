@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-07T13:29:11.503Z",
+  "configuration": {
+    "wordpressVersion": "7.1.4",
+    "theme": "kadence",
+    "themeVersion": "1.6.0",
+    "kadenceBlockRegistered": true,
+    "publishedDemoPages": 6,
+    "isClientReference": false,
+    "formSendsData": false
+  },
+  "routes": [
+    "/",
+    "/about/",
+    "/services/",
+    "/approach/",
+    "/insights/",
+    "/contact/"
+  ],
+  "formDataSubmissionEnabled": false,
+  "productionDeploymentVerified": false,
+  "separateBrowserChecks": "browser-verification.json; not performed by this command"
+}

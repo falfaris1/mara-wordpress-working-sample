@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-07",
+  "fixture": "fictional_mara_consulting_demo",
+  "isClientReference": false,
+  "productionDeploymentVerified": false,
+  "desktop": {
+    "status": "visually_checked",
+    "homepageRendered": true,
+    "contactControlsPresentAndDisabled": true,
+    "screenshot": "desktop.jpg"
+  },
+  "editor": {
+    "status": "checked_in_actual_wordpress_editor",
+    "page": "Home",
+    "kadenceTextAdvBlocksRecognized": true,
+    "coreParagraphAndButtonBlocksRecognized": true,
+    "blockRecoveryPromptsObserved": false,
+    "allSixEditorsIndividuallyChecked": false,
+    "screenshot": "editor.jpg"
+  },
+  "mobileLayout": {
+    "method": "actual_wordpress_frontend_in_fixed_width_iframe",
+    "iframeWidthCssPixels": 390,
+    "documentClientWidthCssPixels": 375,
+    "documentScrollWidthCssPixels": 375,
+    "horizontalOverflowObserved": false,
+    "pagesMeasured": ["Home", "Services"],
+    "menuOpenedWithKeyboard": true,
+    "servicesNavigationWithKeyboardPassed": true,
+    "physicalDeviceTested": false,
+    "screenshot": "mobile.jpg"
+  },
+  "limitations": [
+    "Demonstration content; no customer material or completed customer contract.",
+    "Contact form is disabled and does not demonstrate production mail delivery.",
+    "Card layouts use HTML blocks; headings use actual Kadence Advanced Text blocks.",
+    "Not a production acceptance, accessibility certification or physical-device test."
+  ]
+}
